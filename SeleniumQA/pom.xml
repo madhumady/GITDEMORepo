@@ -26,7 +26,7 @@
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
-                        <suiteXmlFile>suites-test-testng.xml</suiteXmlFile>
+                      
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -47,7 +47,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.1.0</version>
-   
+  <scope>compile</scope>
 </dependency>
     
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
