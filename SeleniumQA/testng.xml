@@ -2,15 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-  <test thread-count="2"   parallel="instances" name="Test">
+  <test thread-count="2"    name="Test">
   <parameter name="browser" value="chrome"></parameter>
   
   
     <classes>
-      <class name="Testngpackage.TestNGTest">
-      <methods>
-      <include name="methodtest"></include>
-      </methods>
+      <class name="seleniumpackage.SeleniumQA.Openbrowser">
+    
       </class>
       
       <!-- class name="seleniumpackage.SeleniumQA.Openbrowser"/-->
