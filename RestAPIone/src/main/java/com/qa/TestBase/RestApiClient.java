@@ -15,7 +15,10 @@ import org.json.JSONObject;
 
 public class RestApiClient {
 
-	
+	@Test
+	public void Runner(){
+	System.out.println("Runner added");
+	}
 	public void get(String url) throws ClientProtocolException, IOException, JSONException {
 	CloseableHttpClient httpClient=	HttpClients.createDefault();
 	HttpGet httpget=new HttpGet(url);
