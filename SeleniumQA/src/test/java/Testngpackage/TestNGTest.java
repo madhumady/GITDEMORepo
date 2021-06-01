@@ -77,7 +77,10 @@ public class TestNGTest {
 	public void methodtest() {
 		System.out.println("method test passed");
 	}
-	
+	@Test
+	public void gitmethod(){
+		System.out.println("GIT PUSH method test passed");
+	}
 	
 	@AfterTest
 	public void quitdriver() {
